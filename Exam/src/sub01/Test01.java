@@ -7,7 +7,7 @@ package sub01;
 
 public class Test01 {
 	public static void main(String[] args) {
-	char    var1 = 'A' //문자
+	char    var1 = 'A'; //문자
 	int     var2 = 100;
 	long    var3 = 2147483648L;
 	float   var4 = 3.14f;
