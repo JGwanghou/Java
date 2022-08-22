@@ -59,6 +59,7 @@ public class ArrayTest {
 		int arr2d[][] = {{1, 2, 3, 4}, 
 						 {5, 6, 7, 8},
 						 {9, 10, 11, 12}};
+		
 		for(int a=0; a<3; a++) {
 			for(int b=0; b<4; b++) {
 				System.out.println("arr2d["+a+"]["+b+"]: "+arr2d[a][b]);
@@ -74,7 +75,6 @@ public class ArrayTest {
 				 			{{19,20,21},
 							{22,23,24},
 							{25,26,27}}};
-				 			
 		for(int a=0; a<3; a++) {
 			for(int b=0; b<3; b++) {
 				for(int c=0; c<3; c++) {
