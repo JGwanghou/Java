@@ -37,6 +37,7 @@ public class MethodTest {
 	} // main 
 	
 	 // 메서드 정의
+	 // public static f() {}
 	public static int f(int x) {
 		
 		int y = 2 * x + 3;
