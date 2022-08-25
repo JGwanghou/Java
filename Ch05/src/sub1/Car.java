@@ -1,7 +1,7 @@
 package sub1;
 
 public class Car {
-	//멤버 변수, 멤버 메서드
+	
 	// 속성
 	String name;
 	String color;
@@ -21,3 +21,4 @@ public class Car {
 		System.out.println("현재속도: "+speed);
 	}
 }
+

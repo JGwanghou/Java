@@ -16,6 +16,7 @@ public class EncapsuleTest {
 		// 객체 생성
 		Car sonata = new Car("소나타", "흰색", 10);
 		
+		sonata.setName("yf소나타");
 		sonata.setColor("은색");
 		sonata.speedUp(80);
 		sonata.speedDown(40);

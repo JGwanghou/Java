@@ -25,6 +25,8 @@ public class ClassTest {
 		sonata.speedDown(30);
 		sonata.show();
 		
+		
+	
 		// 객체 생성
 		Car avante = new Car();
 		
