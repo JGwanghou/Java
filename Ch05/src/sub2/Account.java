@@ -20,7 +20,6 @@ public class Account {
 	public void depsoit(int money) {
 		this.balance += money;
 	}
-	
 	public void withdraw(int money) {
 		this.balance -= money;
 	}
