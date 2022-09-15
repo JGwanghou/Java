@@ -15,11 +15,12 @@ public class just07 {
 			if(n % i == 0) {
 				break;
 			}
-			if(n % i == 1) {
-				System.out.println(n + "은(는) 소수입니다.");
-			}else {
-				System.out.println(n + "소수가 아닙니다");
-			}
 		}
+		if(n == i) {
+			System.out.println(n + "은(는) 소수입니다.");
+		}else {
+			System.out.println(n + "소수가 아닙니다");
+		}
+	
 	}
 }
