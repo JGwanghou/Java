@@ -59,3 +59,8 @@
 	
 ## Ch11. Java JDBC
 	- sub1. JDBC 실습하기
+	- sub2. JDBC Delete, Insert, Update 실습
+	- sub3. JDBC Select 실습
+	- sub4. JDBC PreparedStatement 실습
+	- sub5. JDBC Transaction 실습
+	
