@@ -17,13 +17,13 @@ public class PreparedTest {
 		String pass = "1234";
 		
 		try {
-			//1단계
+			//1단계 - JDBC 드라이버 로드
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			//2단계
+			//2단계 - 데이터베이스 접속
 			Connection conn = DriverManager.getConnection(host, user, pass);
 			
-			//3단계
+			//3단계 - SQL 실행 객체생성
 			String sql = "INSERT INTO `User1` VALUES (?,?,?,?);";
 			PreparedStatement psmt = conn.prepareStatement(sql);
 			psmt.setString(1, "j101");
@@ -31,12 +31,12 @@ public class PreparedTest {
 			psmt.setString(3, "010-1022-1001");
 			psmt.setInt(4, 27);
 			
-			//4단계
+			//4단계 - SQL 실행
 			psmt.executeUpdate();
 			
-			//5단계
+			//5단계 - Select 결과처리
 			
-			//6단계
+			//6단계 - 데이터베이스 종료
 			conn.close();
 			psmt.close();
 		}catch(Exception e) {

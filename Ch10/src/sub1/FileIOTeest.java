@@ -42,6 +42,7 @@ public class FileIOTeest {
 			// 스트림 해제
 			fis.close();
 			fos.close();
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

@@ -17,19 +17,19 @@ public class DeleteTest {
 		String pass = "1234";
 		
 		try {
-			// 1단계
+			// 1단계 - JDBC 드라이버 로드
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			
-			// 2단계
+			// 2단계 - 데이터베이스 접속
 			Connection conn = DriverManager.getConnection(host, user, pass);
 		
-			// 3단계
+			// 3단계 - SQL 객체 생성
 			Statement stmt = conn.createStatement();
-			// 4단계
+			// 4단계 - SQL 실행
 			String sql = "DELETE FROM `User1` WHERE `uid` = 'j101';";
 			stmt.executeUpdate(sql);
-			// 5단계
-			// 6단계
+			// 5단계 - Select 결과처리
+			
+			// 6단계 - 데이터베이스 종료
 			conn.close();
 			stmt.close();
 		}catch (Exception e) {
