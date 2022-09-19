@@ -64,3 +64,8 @@
 	- sub4. JDBC PreparedStatement 실습
 	- sub5. JDBC Transaction 실습
 	
+## Ch12. Java 스레드
+	- sub1. Java Thread 실습
+	- sub2. Thread Join 실습
+	- sub3. Thread 활용 실습
+	- sub4. Daemon Thread 실습
