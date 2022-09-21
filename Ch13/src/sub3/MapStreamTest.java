@@ -42,7 +42,7 @@ public class MapStreamTest {
 		
 		.sum();
 		
-	System.out.println("result : " + result);
+		System.out.println("result : " + result);
 		
 	}
 }
