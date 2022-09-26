@@ -15,7 +15,7 @@ public class Test07 {
 		printList(createList());
 	}
 	
-	public static void printList(??? scoreList) {
+	public static void printList(List<Integer> scoreList) {
 		
 		int total = 0;
 		int size = scoreList.size();
@@ -34,7 +34,7 @@ public class Test07 {
 		System.out.println(total);
 	}
 	
-	public static  createList() {
+	public static List<Integer> createList() {
 		
 		List<Integer> scoreList = new ArrayList<>();
 		Random rand = new Random();
