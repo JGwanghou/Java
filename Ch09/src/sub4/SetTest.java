@@ -25,11 +25,12 @@ public class SetTest {
 		set.add(5);
 		set.add(1);
 		set.add(2);
+		
 		System.out.println(set);
 		// 집합 갯수
-		System.out.println("집합 갯수 : " + set.size());
-		
+		System.out.println("set 집합 갯수 : "+set.size());
 		// 집합 출력
+		
 		for(int n : set) {
 			System.out.println(n + " ");
 		}

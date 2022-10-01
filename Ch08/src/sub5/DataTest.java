@@ -19,7 +19,8 @@ public class DataTest {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String result = sdf.format(date);
 		
-		System.out.println("result : " + result);
+		System.out.println("result :"
+				+ " " + result);
 		// Calendar 클래스
 		// Calendar cal = new Calendar();
 		Calendar cal = Calendar.getInstance();

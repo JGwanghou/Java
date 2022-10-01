@@ -37,7 +37,7 @@ public class StringTest {
 		// 문자열 추출
 		System.out.println("sample 1번쨰 문자: " + sample.charAt(0));
 		System.out.println("sample 7번쨰 문자: " + sample.charAt(6));
-		// 문자열 자르기
+		// 문자열 자르기 
 		System.out.println("sample 1~6까지 자르기 : " + sample.substring(0, 5));
 		System.out.println("sample 7~마지막까지 자르기 : " + sample.substring(6));
 		// 문자열 인덱스

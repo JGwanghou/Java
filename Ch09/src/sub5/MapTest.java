@@ -18,24 +18,21 @@ public class MapTest {
 	public static void main(String[] args) {
 		
 		// Map 생성
-		HashMap<Character, String> map = new HashMap<>();
+		Map<Character, String> map = new HashMap<>();
 		
 		// Map 데이터 입력
-		map.put('A',"Apple");
-		map.put('B',"Banana");
-		map.put('C', "Cherry");	
+		map.put('A', "Apple");
+		map.put('B', "Banana");
+		map.put('C', "Cherry");
 		
 		// Map 크기
 		System.out.println("map 크기 : " + map.size());
-		
 		// Map 출력
-		System.out.println("map A 값 : " + map.get('A'));
-		System.out.println("map B 값 : " + map.get('B'));
-		System.out.println("map C 값 : " + map.get('C'));
-		
+		System.out.println("map A의 값: " + map.get('A'));
+		System.out.println("map B의 값: " + map.get('B'));
 		// Map 반복문
-		for(char k : map.keySet()) {
-			System.out.println(k + " : " + map.get(k));
+		for (char k : map.keySet()) {
+			System.out.println(k+ ":"+map.get(k));
 		}
 		
 		// List-Map 응용

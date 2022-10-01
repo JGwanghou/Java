@@ -13,6 +13,7 @@ package sub3;
  *   - 싱글톤 패턴이 적용된 객체는 하나의 인스턴스로 존재
  *   - 싱클톤 객체를 사용해서 메모리 절약과 성능 향상을 기대
  */
+
 class Increment {
 	private int num1;
 	private static int num2;

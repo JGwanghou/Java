@@ -23,7 +23,7 @@ public class UserDao {
 	
 	private Connection getConnection() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection conn = DriverManager.getConnection(host, user, pass);
+		Connection conn = DriverManager.getConnection(host, user, pass) ;
 		return conn;
 	}
 	
