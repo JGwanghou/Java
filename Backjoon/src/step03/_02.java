@@ -10,16 +10,16 @@ import java.util.Scanner;
 public class _02 {
 
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
-
+		
+		System.out.println("테스트 케이스 개수 : ");
 		int n = sc.nextInt();
 		
-		for (int i = 0; i < n; i++) {
-			int A = sc.nextInt();
-			int B = sc.nextInt();
-			System.out.println(A+B);
+		for(int i = 1; i<=n; i++) {
+			
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			System.out.println(a+b);
 		}
-		
 	}
 }

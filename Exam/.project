@@ -3,6 +3,7 @@
 	<name>Exam</name>
 	<comment></comment>
 	<projects>
+		<project>Ch11</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

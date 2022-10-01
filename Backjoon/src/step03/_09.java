@@ -18,6 +18,7 @@ public class _09 {
 				System.out.print(" ");
 			}
 			for(int k = 0; k < i; k++) {
+				
 				System.out.print("*");
 			}
 			System.out.println();

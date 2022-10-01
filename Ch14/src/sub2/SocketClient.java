@@ -25,7 +25,6 @@ public class SocketClient {
 			System.out.println("연결 성공...");
 			
 			// 데이터 송신(Client -> Server) // 바이트스트림
-			
 			OutputStream os = socket.getOutputStream();
 			String msg = "Hello Server!";
 			
@@ -35,7 +34,6 @@ public class SocketClient {
 			System.out.println("데이터 송신 완료...");
 			
 			// 데이터 수신(Server -> Client)
-			
 			InputStream is = socket.getInputStream();
 			byte[] bytes = new byte[100];
 			int readBytes = is.read(bytes);
