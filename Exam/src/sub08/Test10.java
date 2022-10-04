@@ -51,7 +51,7 @@ public class Test10 {
 	private static String user = "root";
 	private static String pass = "1234";
 	
-	public static  getConnection() throws SQLException {
+	public static Connection getConnection() throws SQLException {
 		return DriverManager.getConnection(host, user, pass);
 	}
 }
